@@ -6,6 +6,8 @@ console.writeline("what's your name?");
 response = console.readline();
 console.writeline($"enjoy the curse, (response)");
 
+
+
 opertaingsystem thisOS = environment.OSVersion;
 console.writeline(thisOS.playform);
 console.writeline(thisOS.versionstring);
