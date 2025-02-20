@@ -10,9 +10,6 @@ if (!Directory.Exists(dirname)) {
 else {
     Directory.Delete(dirname);
 }
-
-
-
 // TODO: Get the path for the current directory
 string curpath = Directory.GetCurrentDirectory();
 Console.WriteLine($"Current directory is {curpath}");
